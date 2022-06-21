@@ -1,0 +1,46 @@
+.btn-outline-success{
+    color: #f9b949;
+    border: #f9b949;
+}
+
+.btn-outline-success:hover{
+    background-color: #f9b949;
+    color: white;
+    border-color: #f9b949;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.first-line{
+    border-bottom: 1px solid pink;
+}
+
+.second-line a{
+    color: white;
+    text-decoration: none;
+}
+
+.third-line{
+    display: none;
+}
+
+@media screen and (max-width:48rem){ /*/스크린 사이즈가 48이 최대일때 (0-48)/*/
+
+    .first-line{
+        text-align: center;
+    }
+
+    .second-line{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid pink;
+    }
+
+    .third-line{
+        display: block;
+    }
+
+}
